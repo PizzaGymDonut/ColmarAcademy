@@ -204,7 +204,9 @@ h1 {
 /* NOTE:  non-mobile specific  */
 
 
-
+#blueicon {
+  color: #6495ED;
+}
 
 html {
   display: flex;
