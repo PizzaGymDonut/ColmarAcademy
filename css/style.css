@@ -1,2 +1,167 @@
 
-/* NOTE: Header area menu */
+/* NOTE: desktop and mobile visual */
+
+
+
+@media only screen and (min-width: 640px) {
+  .mobile {
+      display: none;
+    }
+
+  body {
+    width:1000px;
+  }
+
+  html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+@media only screen and (max-width: 640px) {
+  .desktop {
+      display: none;
+    }
+
+    .first {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .first img {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .banner {
+      padding: 2rem 1rem;
+    }
+
+    .first h1 {
+      padding-bottom: 2rem;
+    }
+
+    .first a {
+      margin-bottom: 1.5rem;
+    }
+
+}
+
+
+
+/* NOTE:  non-mobile specific  */
+
+
+
+
+body {
+font-family: helvetica;
+font-size: 16px;
+line-height: 1.2rem;
+}
+
+
+img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+
+
+/* NOTE:  Header  */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  height: 4rem;
+}
+
+header img{
+  margin-left: 1.5rem;
+  height: 2rem;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  opacity: 0.5;
+}
+
+nav li {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+nav {
+  margin-right: 1.5rem;
+}
+
+
+
+
+
+/* NOTE:  story news sections  */
+
+
+.banner {
+  margin: auto;
+  padding-right: 3rem;
+}
+
+.banner a {
+display: block;
+width: 100%;
+align-items: center;
+text-align: center;
+background: #5B4D4D;
+color: white;
+padding: 8px 0;
+text-decoration: none;
+margin: 1rem 0;
+}
+
+.large{
+padding: 2rem 1.5rem;
+width: 60%;
+
+
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  background-color: #bcbcbc;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 3rem;
+
+}
+
+
+
+
+
+
+/* NOTE: video section  */
+
+
+.video {
+
+width: 60%;
+}
