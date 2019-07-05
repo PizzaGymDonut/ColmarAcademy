@@ -17,6 +17,10 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .story img {
+    width:35%;
+  }
 }
 
 
@@ -119,6 +123,8 @@ nav {
 .banner {
   margin: auto;
   padding-right: 3rem;
+  width: 40%;
+
 }
 
 .banner a {
@@ -156,7 +162,41 @@ h1 {
 
 
 
+/* NOTE:  second main section  */
 
+
+.second {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+
+}
+
+.content {
+  width: 60%;
+  padding: 2rem 1.5rem;
+  margin: 0;
+}
+
+.news {
+  width: 40%;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+}
+.story.text {
+  width: 65%;
+}
+
+.story {
+  display: flex;
+  align-items: center;
+}
 
 /* NOTE: video section  */
 
