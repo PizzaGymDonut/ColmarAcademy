@@ -296,7 +296,54 @@ padding: 1rem 0 2rem 1rem;
 /* NOTE: video section  */
 
 
-.video {
+.forth h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem;
+}
 
-width: 60%;
+
+.content-two h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.video {
+  width: 100%;
+}
+
+.content-two {
+  width: 60%;
+  padding: 2rem 1.5rem 0 1.5rem;
+  margin: 0;
+}
+
+.content-two p {
+  padding-bottom: 2rem;
+}
+
+
+
+/* NOTE: foooooter */
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px grey solid;
+}
+
+footer li {
+  display: inline;
+}
+
+footer span {
+  padding: 1rem 1.5rem;
+}
+
+footer ul {
+  padding: 1rem 1.5rem;
 }
