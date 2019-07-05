@@ -20,6 +20,7 @@
 
   .story img {
     width:35%;
+    padding: 1rem;
   }
 }
 
@@ -34,23 +35,30 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
+
     }
 
-    .first img {
-      width: 100%;
-      padding: 0;
-      margin: 0;
-    }
+ .content{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+ }
+
+ .main {
+   width: 100%;
+ }
+
 
     .banner {
       padding: 2rem 1rem;
+      width: 100%;
     }
 
-    .first h1 {
+    .content h1 {
       padding-bottom: 2rem;
     }
 
-    .first a {
+    .content a {
       margin-bottom: 1.5rem;
     }
 
@@ -167,8 +175,10 @@ h1 {
 
 .second {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
@@ -182,13 +192,24 @@ h1 {
   margin: 0;
 }
 
-.news {
-  width: 40%;
-  padding: 0 1rem;
-  margin: auto;
+.content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
 }
 
+.content span {
+  font-style: italic;
+  padding-top: 1rem;
 }
+
+.news {
+  width: 40%;
+  padding-top: 1rem;
+}
+
+
 .story.text {
   width: 65%;
 }
@@ -196,7 +217,67 @@ h1 {
 .story {
   display: flex;
   align-items: center;
+  justify-content: center;
+  line-height: 1.5rem;
+
 }
+
+.story:hover {
+  background-color: #EA4040;
+  transition: background-color 500ms ease-in-out 0;
+}
+
+
+.text h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.text p {
+  padding: 0.5rem 0;
+}
+
+.text {
+  padding-right: 1rem;
+}
+
+
+
+
+
+/* NOTE: section three */
+
+.thrid {
+  background-color: #bcbcbc;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.thrid h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.courses {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 2rem 3.5rem;
+}
+
+.lesson {
+  width: 27%;
+  padding: 1rem;
+}
+
+.lesson img {
+  width: 100%;
+}
+
 
 /* NOTE: video section  */
 
