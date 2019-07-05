@@ -137,6 +137,7 @@ h1 {
   line-height: 2rem;
   padding-bottom: 2rem;
 
+
 }
 .banner a {
   margin-top: 2rem;
@@ -177,7 +178,7 @@ h1 {
   font-size: 1rem;
   font-weight: bold;
   padding: 1rem 0 2rem 1rem;
-  background-color: #C14646;
+  background-color: #4169E1;
   margin-top: .5rem;
   width: 90%;
   color: #fff;
@@ -209,17 +210,27 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 
 
 
 body {
-font-family: helvetica;
+font-family: Karla;
 font-size: 16px;
 line-height: 1.2rem;
 }
 
+p, span {
+  font-family: Hind;
+
+}
+
+
+h1 {
+  color: #4169E1;
+}
 
 img {
   background-repeat: no-repeat;
@@ -279,19 +290,24 @@ display: block;
 width: 100%;
 align-items: center;
 text-align: center;
-background: #5B4D4D;
+background-color: #4169E1;
 color: white;
 padding: 8px 0;
 text-decoration: none;
 
 }
+.banner a:hover {
+  background-color: #4682B4;
+  transition: background-color 200ms ease-in-out 50ms;
+}
+
 
 
 
 .first {
   display: flex;
   align-items: center;
-  background-color: #bcbcbc;
+  background-color: #DCDCDC;
 }
 
 
@@ -308,6 +324,8 @@ text-decoration: none;
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #6495ED;
+  color: #fff;
 }
 
 .main {
@@ -315,7 +333,9 @@ text-decoration: none;
 
 }
 
-
+#blue {
+  background-color: #1E90FF;
+}
 
 .content h2 {
   font-size: 1.5rem;
@@ -330,13 +350,9 @@ text-decoration: none;
 }
 
 
-
-
-
-
 .story:hover {
-  background-color: #EA4040;
-  transition: background-color 500ms ease-in-out 0;
+  background-color: #4169E1;
+  transition: background-color 200ms ease-in-out 50ms;
 }
 
 
@@ -347,12 +363,16 @@ text-decoration: none;
 
 .text p {
   padding: 0.5rem 0;
+
 }
 
 .text {
   padding-right: 1rem;
 }
 
+.text a{
+    text-decoration: none;
+}
 
 
 
@@ -360,7 +380,7 @@ text-decoration: none;
 /* NOTE: section three */
 
 .thrid {
-  background-color: #bcbcbc;
+  background-color: #DCDCDC;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -383,7 +403,8 @@ justify-content: center;
 .lesson {
   width: 27%;
   margin: 1rem;
-  background-color: #fff;
+  background-color: #4169E1;
+  color: #fff;
 }
 
 .lesson img {
@@ -414,12 +435,17 @@ padding: 1rem 0 2rem 1rem;
   padding-top: 2rem;
 }
 
+.forth {
+  background-color: #6495ED;
+  color: #fff;
+}
 
 .content-two h4 {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: bold;
   padding-top: 1.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
+
 }
 
 .video {
